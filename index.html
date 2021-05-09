@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+	<meta charset="UTF-8">
+	<title>FINALS ACTIVITY 1 and HANDS-ON Quiz 2</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" href="logo.png">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;500&display=swap" rel="stylesheet">
+</head>
+<body>
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="index.html">Menu</a>
+  <a href="contact.html" target="Iframe">Contact us</a>
+  <a href="subscribe.html" target="Iframe">Subscribe</a>
+  <a href="#">About us</a>
+  <a href="signin.html" target="Iframe">Sign in</a>
+</div>
+
+<div id="main">
+  <button class="openbtn" onclick="openNav()">☰</button>  
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+	<iframe name="Iframe" style="width:100%; height: 1000px; border: none; overflow: scroll;
+overflow-x: hidden;"></iframe>
+	
+</body>
+</html>
